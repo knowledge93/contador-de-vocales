@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    background-color: #2980B9;
+}
+
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    border: 3px solid #3e398e;
+    border-radius: 1.5em;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+label{
+    display: block;
+    margin-bottom: .4em;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: .4em;
+}
+
+
+input,textarea{
+    margin-bottom: .7em;
+    background-color: #2980B9;
+    color: #fff;
+    border: 1px solid #ccc;
+}
+
+input:focus,textarea:focus{
+    outline: none;
+}
+
+textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 4em;
+    max-height: 4em;
+    min-height: 4em;
+    border-radius: .5em;
+    padding: .5em;
+}
+input{
+    width: 100%;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: .5em;
+    border-radius: .5em;
+    border: none;
+    font-family: 'Love Ya Like A Sister', cursive;
+    cursor: pointer;
+}
+
+.contarVocales{
+    margin-bottom: .5em;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contador de Vocales</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <!--Crea un programa HTML,CSS y JavaScript que lea una cadena de caracteres y cuente la cantidad de vocales utilizando un bucle for.-->
+    <div class="container">
+        <h1 class="title">Contar Vocales</h1>
+        <div class="form-group">
+          <label for="cadenaText">Texto</label>
+          <textarea
+            name="cadenaText"
+            id="cadenaText"
+          ></textarea>
+        </div>
+        <div class="form-group">
+            <label for="resultad">Resultado</label>
+            <input type="text" id="resultado" class="resultado" disabled>
+        </div>
+        <div class="form-group">
+            <button id="contarVocales" class="contarVocales">Contar Vocales</button>
+            <button id="limpiarCampos">Limpiar Campos</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
